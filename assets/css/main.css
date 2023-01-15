@@ -172,3 +172,31 @@ footer p span {
         margin-top: 110px;
     }
 }
+
+@media only screen and (min-height: 812px){
+    footer {
+        position: relative;
+        overflow: auto;
+        margin-top: 110px;
+        display: inline-block;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        bottom: 100px;
+    }
+}
+
+@media only screen and (min-width: 375px){
+    footer {
+        position: relative;
+        overflow: auto;
+        margin-top: 110px;
+        display: inline-block;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        bottom: 100px;
+    }
+}
+
+
